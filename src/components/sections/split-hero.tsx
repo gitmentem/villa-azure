@@ -39,7 +39,8 @@ export function SplitHero({
           src={image}
           alt={imageAlt}
           fill
-          priority
+          loading="eager"
+          fetchPriority="high"
           sizes="62vw"
           className="object-cover"
         />

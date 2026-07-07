@@ -21,7 +21,8 @@ export function HeroSection() {
           src={HERO_IMAGE}
           alt="Master bedroom at Paradisiac Beach Club"
           fill
-          priority
+          loading="eager"
+          fetchPriority="high"
           sizes="60vw"
           className="object-cover"
         />

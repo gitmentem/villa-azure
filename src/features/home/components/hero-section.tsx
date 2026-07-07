@@ -8,7 +8,8 @@ export function HeroSection() {
         src={HERO_IMAGE}
         alt="Paradisiac Beach Club"
         fill
-        priority
+        loading="eager"
+        fetchPriority="high"
         sizes="100vw"
         className="object-cover opacity-90"
       />

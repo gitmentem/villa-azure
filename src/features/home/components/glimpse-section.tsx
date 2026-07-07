@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { GLIMPSE_IMAGES } from "@/features/home/data/content";
+import { GLIMPSE_IMAGES, HERO_IMAGE } from "@/features/home/data/content";
 
 export function GlimpseSection() {
   return (
@@ -15,6 +15,7 @@ export function GlimpseSection() {
                 src={src}
                 alt="Paradisiac Beach Club"
                 fill
+                loading={src === HERO_IMAGE ? "eager" : "lazy"}
                 sizes="(min-width: 1024px) 20vw, 33vw"
                 className="object-cover"
               />
