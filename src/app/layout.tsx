@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Great_Vibes, Poppins } from "next/font/google";
 import { QueryProvider } from "@/providers/query-provider";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { Loader } from "@/components/layout/loader";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -44,6 +45,7 @@ export default function RootLayout({
       className={`${cormorant.variable} ${greatVibes.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-villa-bg text-[#22303d]">
+        <Loader />
         <QueryProvider>
           <Header />
           <main className="flex-1">{children}</main>

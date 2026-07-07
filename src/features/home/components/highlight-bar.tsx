@@ -19,7 +19,7 @@ const ICONS: Record<string, LucideIcon> = {
 export function HighlightBar() {
   return (
     <section className="border-villa-primary/10 border-b bg-white">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-2 gap-6 px-6 pt-12 pb-8 sm:grid-cols-3 md:px-[30px] lg:flex lg:flex-nowrap lg:justify-between">
+      <div className="mx-auto grid max-w-[1280px] grid-cols-2 gap-6 px-6 py-12 sm:grid-cols-3 md:px-[30px] lg:flex lg:flex-nowrap lg:justify-between">
         {HIGHLIGHTS.map((item, index) => {
           const Icon = ICONS[item.icon];
           return (
