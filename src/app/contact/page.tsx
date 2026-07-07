@@ -44,6 +44,7 @@ export default function ContactPage() {
       <CtaBand
         variant="light"
         heading="Let's Start Planning Your Escape"
+        lightBgClass="bg-[#f2ede4]"
         copy="Reach out today and let us help you create unforgettable memories at Paradisiac Beach Club."
       />
     </>

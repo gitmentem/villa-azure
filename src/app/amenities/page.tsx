@@ -25,6 +25,8 @@ export default function AmenitiesPage() {
       <ThoughtfulAmenities />
       <CtaBand
         heading="Relax. Enjoy. You're Home."
+        lightBgClass="bg-[#f2ede4]"
+        variant="light"
         copy="From modern comforts to thoughtful touches, Paradisiac Beach Club has everything you need for an unforgettable escape."
       />
     </>

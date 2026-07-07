@@ -28,6 +28,7 @@ export default function GuestInfoPage() {
       <HelpfulLocalInfo />
       <CtaBand
         heading="We're Here to Make Your Stay Amazing"
+        lightBgClass="bg-[#f2ede4]"
         copy="If you need anything during your stay, please don't hesitate to reach out. Sit back, relax and enjoy your time at Paradisiac Beach Club!"
         variant="light"
       />
