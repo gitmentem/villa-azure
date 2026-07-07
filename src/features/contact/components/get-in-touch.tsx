@@ -34,11 +34,11 @@ export function GetInTouch() {
               <div className="bg-villa-primary flex size-12 shrink-0 items-center justify-center rounded-full">
                 <Icon className="size-5 text-white" strokeWidth={1.5} />
               </div>
-              <div>
+              <div className="min-w-0">
                 <div className="text-villa-primary text-[11px] font-semibold tracking-[0.8px] uppercase">
                   {item.label}
                 </div>
-                <div className="text-villa-accent text-[14px] font-medium">
+                <div className="text-villa-accent text-[14px] font-medium break-words">
                   {item.value}
                 </div>
                 <div className="text-[11.5px] font-light text-[#6a7784]">

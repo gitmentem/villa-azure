@@ -51,18 +51,23 @@ export function Loader() {
         }}
       />
 
-      <div className="text-center [animation:ldr-breathe_3.2s_ease-in-out_infinite]">
+      <div className="text-center [animation:ldr-breathe_3.2s_ease-in-out_infinite] px-6">
         <div
-          className="font-heading text-villa-primary pl-3 text-[44px] font-semibold tracking-[12px] [animation:ldr-in_.8s_ease_both]"
+          className="font-heading text-villa-primary pl-3 font-semibold [animation:ldr-in_.8s_ease_both]"
+          style={{
+            fontSize: "clamp(1.5rem, 8vw, 2.75rem)",
+            letterSpacing: "clamp(0.25rem, 2vw, 0.75rem)",
+          }}
         >
           {SITE.logoPrimary}
         </div>
         <div
-          className="font-script mt-1 text-[68px] leading-[0.8] text-[#2f6fb0] [animation:ldr-in_.8s_ease_.12s_both]"
+          className="font-script mt-1 leading-[0.8] text-[#2f6fb0] [animation:ldr-in_.8s_ease_.12s_both]"
+          style={{ fontSize: "clamp(2.25rem, 12vw, 4.25rem)" }}
         >
           {SITE.logoScript}
         </div>
-        <div className="text-villa-accent mt-[18px] pl-1.5 text-[13px] tracking-[6px] uppercase [animation:ldr-in_.8s_ease_.24s_both]">
+        <div className="text-villa-accent mt-[18px] pl-1.5 text-[11px] tracking-[3px] uppercase sm:text-[13px] sm:tracking-[6px] [animation:ldr-in_.8s_ease_.24s_both]">
           {SITE.tagline}
         </div>
         <div className="mt-[34px] flex justify-center gap-[11px] [animation:ldr-in_.8s_ease_.36s_both]">

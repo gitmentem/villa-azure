@@ -29,8 +29,8 @@ export function ThoughtfulAmenities() {
           {THOUGHTFUL_AMENITIES.map((item) => {
             const Icon = ICONS[item.icon];
             return (
-              <div key={item.title} className="flex flex-col gap-5 sm:flex-row sm:items-center">
-                <div className="relative h-[170px] w-full shrink-0 overflow-hidden rounded-[2px] sm:w-[270px]">
+              <div key={item.title} className="flex flex-col gap-5 lg:flex-row lg:items-center">
+                <div className="relative h-[170px] w-full shrink-0 overflow-hidden rounded-[2px] lg:w-[270px]">
                   <Image
                     src={item.image}
                     alt={item.title}
